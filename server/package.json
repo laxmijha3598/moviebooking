@@ -1,0 +1,16 @@
+{
+  "name": "movie-ticket-booking-server",
+  "version": "1.0.0",
+  "description": "Backend API for movie ticket booking system",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "sqlite3": "^5.1.7"
+  }
+}
